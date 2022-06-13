@@ -1,8 +1,9 @@
 <#
 Author: DSD-TECH
 Script: Get Battery Compliance
-Descri: Gets battery lifecycle values and chemistry types
-Versio: 1.00
+Descri: Gets battery lifecycle values and chemistry types - use as a Endpoint Manager Proactive Remediation Detection Script run in the SYSTEM context.
+        Use [int]$BatteryCapacityTarget and [array]$ChemistryTypesToAvoid variables accordingly.
+Versio: 1.01
 
 ## Chemistry Types ##
 'Other'
@@ -14,7 +15,7 @@ Versio: 1.00
 'Nickel Cadmium';
     Environmental hazard due to Cadmium - prohibited in Europe.
 'Nickel Metal Hydride';
-    Environmental hazrd due to Nickel
+    Environmental hazard due to Nickel
 'Lithium-ion';
     Environmental hazard due to mining - Industry Standard
 'Zinc air';
@@ -23,7 +24,7 @@ Versio: 1.00
     Environmental hazard due to mining 
 #>
 
-[int]$BatteryCapacityTarget = 65 #Compliance Target
+[int]$BatteryCapacityTarget = 65 # Compliance Target
 [array]$ChemistryTypesToAvoid =  'Nickel Cadmium','Lead Acid' # Battery Chemistry Types
 [string]$OutpoutErrorColor = "Red"
 [string]$OutputOKColor = "Green"
