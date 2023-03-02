@@ -16,6 +16,6 @@ Detects pinned items from the banlist
 ## Set-BannedTaskbarPins.ps1
 Unpins items from the banlist
 
-## Get-BatteryCompliance.ps1
-
+# Get-BatteryCompliance.ps1
+Proactive Remediation to detect battery lifecycle and chemistyr compliance
 
