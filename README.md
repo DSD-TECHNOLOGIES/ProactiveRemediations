@@ -16,6 +16,14 @@ Detects pinned items from the banlist
 ## Set-BannedTaskbarPins.ps1
 Unpins items from the banlist
 
-# Get-BatteryCompliance.ps1
-Proactive Remediation to detect battery lifecycle and chemistyr compliance
+# BatteryCompliance
+Proactive Remediation to detect battery lifecycle and chemistry compliance
+* Detection script: Yes
+* Remediation script: No
+* Run this script using the logged-on credentials: No
+* Enforce script signature check: No
+* Run script in 64-bit PowerShell: No
+
+## Get-BatteryCompliance.ps1
+Gets battery lifecycle values and chemistry types based on $BatteryCapacityTarget and $ChemistryTypesToAvoid
 
