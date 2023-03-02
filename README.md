@@ -11,10 +11,10 @@ Proactive Remediation to detect and remove Windows Taskbar pins based on a banli
 * Run script in 64-bit PowerShell: Yes
 
 ## Get-BannedTaskbarPins.ps1
-Detects pinned items from the banlist
+Detects pinned items from the $banlist
 
 ## Set-BannedTaskbarPins.ps1
-Unpins items from the banlist
+Unpins items from the $banlist
 
 # BatteryCompliance
 Proactive Remediation to detect battery lifecycle and chemistry compliance
